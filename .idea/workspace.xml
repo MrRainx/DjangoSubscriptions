@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d47b5b49-7309-4f48-920b-e1a2bf385484" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/DjangoSubscriptions/routing.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DjangoSubscriptions/schema.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoSubscriptions/graphql/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoSubscriptions/graphql/schema.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoSubscriptions/serializers.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DjangoSubscriptions/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoSubscriptions/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DjangoSubscriptions/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoSubscriptions/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DjangoSubscriptions/routing.py" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoSubscriptions/routing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DjangoSubscriptions/schema.py" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoSubscriptions/schema.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,32 +20,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DjangoSubscriptions/settings.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="364">
-              <caret line="58" column="63" lean-forward="true" selection-start-line="58" selection-start-column="63" selection-end-line="58" selection-end-column="63" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DjangoSubscriptions/routing.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="116">
-              <caret line="4" column="67" selection-start-line="4" selection-start-column="54" selection-end-line="4" selection-end-column="67" />
-              <folding>
-                <element signature="e#0#40#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/DjangoSubscriptions/schema.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="203">
-              <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+            <state relative-caret-position="433">
+              <caret line="35" column="45" selection-start-line="35" selection-start-column="45" selection-end-line="35" selection-end-column="45" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -53,13 +33,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DjangoSubscriptions/serializers.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="46">
+              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+              <folding>
+                <element signature="e#0#46#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DjangoSubscriptions/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="364">
-              <caret line="24" column="4" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
-              <folding>
-                <element signature="e#643#675#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="272">
+              <caret line="20" selection-start-line="20" selection-end-line="20" />
             </state>
           </provider>
         </entry>
@@ -69,9 +58,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -82,11 +71,13 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/DjangoSubscriptions/routing.py" />
         <option value="$PROJECT_DIR$/templates/test.html" />
         <option value="$PROJECT_DIR$/templates/test.js" />
         <option value="$PROJECT_DIR$/DjangoSubscriptions/settings.py" />
         <option value="$PROJECT_DIR$/DjangoSubscriptions/urls.py" />
+        <option value="$PROJECT_DIR$/DjangoSubscriptions/routing.py" />
+        <option value="$PROJECT_DIR$/DjangoSubscriptions/serializers.py" />
+        <option value="$PROJECT_DIR$/DjangoSubscriptions/graphql/schema.py" />
         <option value="$PROJECT_DIR$/DjangoSubscriptions/schema.py" />
       </list>
     </option>
@@ -114,6 +105,12 @@
               <item name="DjangoSubscriptions" type="b2602c69:ProjectViewProjectNode" />
               <item name="DjangoSubscriptions" type="462c0819:PsiDirectoryNode" />
               <item name="DjangoSubscriptions" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DjangoSubscriptions" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DjangoSubscriptions" type="462c0819:PsiDirectoryNode" />
+              <item name="DjangoSubscriptions" type="462c0819:PsiDirectoryNode" />
+              <item name="graphql" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -177,12 +174,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1571972261925</updated>
-      <workItem from="1571972409274" duration="5364000" />
+      <workItem from="1571972409274" duration="7545000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5364000" />
+    <option name="totallyTimeSpent" value="7545000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1696" height="1066" extended-state="6" />
@@ -290,37 +287,68 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DjangoSubscriptions/settings.py">
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/serializers.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="58" column="63" lean-forward="true" selection-start-line="58" selection-start-column="63" selection-end-line="58" selection-end-column="63" />
+        <state relative-caret-position="169">
+          <caret line="350" column="20" lean-forward="true" selection-start-line="350" selection-start-column="20" selection-end-line="350" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DjangoSubscriptions/urls.py">
+    <entry file="file://$PROJECT_DIR$/DjangoSubscriptions/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="24" column="4" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
-          <folding>
-            <element signature="e#643#675#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="226">
+          <caret line="58" column="63" lean-forward="true" selection-start-line="58" selection-start-column="63" selection-end-line="58" selection-end-column="63" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/DjangoSubscriptions/routing.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="4" column="67" selection-start-line="4" selection-start-column="54" selection-end-line="4" selection-end-column="67" />
+        <state relative-caret-position="203">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
           <folding>
             <element signature="e#0#40#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/auth/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-84">
+          <caret line="173" column="4" selection-start-line="173" selection-start-column="4" selection-end-line="173" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DjangoSubscriptions/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DjangoSubscriptions/graphql/schema.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="23" column="37" lean-forward="true" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DjangoSubscriptions/serializers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+          <folding>
+            <element signature="e#0#46#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/DjangoSubscriptions/schema.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+        <state relative-caret-position="433">
+          <caret line="35" column="45" selection-start-line="35" selection-start-column="45" selection-end-line="35" selection-end-column="45" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
