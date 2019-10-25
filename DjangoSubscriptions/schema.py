@@ -1,12 +1,12 @@
 import graphene
+import rx
 from django.contrib.auth import get_user_model
 from graphene import relay
 from rx import Observable
 
 import graphene
 
-# from DjangoSubscriptions.graphql.schema import Subscriptions
-from DjangoSubscriptions.graphql.schema import UserType
+from DjangoSubscriptions.graphql.schema import Subscriptions
 
 
 class Query(graphene.ObjectType):
@@ -29,12 +29,7 @@ class Subscription(graphene.ObjectType):
 '''
 
 
-class RootSubscription(graphene.ObjectType):
-    test = graphene.Field(UserType)
-
-    def resolve_user(self, info):
-        return get_user_model().objects.all()
-
+class RootSubscription(graphene.ObjectType, Subscriptions):
     class Meta:
         description = 'The project root subscription definition'
 

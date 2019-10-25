@@ -53,6 +53,7 @@ MIDDLEWARE = [
 ROOT_URLCONF = 'DjangoSubscriptions.urls'
 
 GRAPHENE = {
+    'SCHEMA_INDENT': 4,
     'SCHEMA': 'DjangoSubscriptions.schema.schema',
     'MIDDLEWARE': [
         # Others middlewares

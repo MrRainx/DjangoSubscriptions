@@ -1,7 +1,7 @@
-from channels.routing import route_class
+from channels import include
 
-from graphql_ws.django_channels import GraphQLSubscriptionConsumer
+from DjangoSubscriptions.graphql.routing import app_routing
 
 channel_routing = [
-    route_class(GraphQLSubscriptionConsumer, path=r"^/subscriptions"),
+    include("DjangoSubscriptions.graphql.routing.app_routing", path=r"^/subscriptions"),
 ]
